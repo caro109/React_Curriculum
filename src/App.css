@@ -27,3 +27,40 @@ li{
   margin-left: 160vh;
   margin-top: 0.5vh;
 }
+
+.nameText{
+  height: 5vh;
+  border-radius: 8px;
+  border: 2.5px solid #000;
+  font-size: 3vh;
+}
+
+.greeting{
+  width: 5%;
+  height: 5.3vh;
+  background-color: #AF7AC5;
+  color: #000;
+  box-shadow: 0 8px 16px 0 rgba(#d5e6e1, #d5e6e1, #d5e6e1, alpha);
+  font: 1.5em;
+  border-radius: 8px;
+  border: 2.5px solid #AF7AC5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:2.5vh;
+}
+
+.greeting:hover{
+  background-color: #D7BDE2;
+  color: #000;
+}
+
+.container{
+  text-align: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.capture{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5vh;
+  margin-top: 1vh;
+}
