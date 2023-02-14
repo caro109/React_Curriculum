@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #4c9ea5;
+  height: 8vh;
+}
+
+a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vh;
+  color: #fff;
+}
+
+nav li{
+  display: inline-block;
+  width: 9%;
+}
+
+li{
+  margin-top: 2.5vh;
+}
+
+.Icon{
+  margin-left: 160vh;
+  margin-top: 0.5vh;
+}
