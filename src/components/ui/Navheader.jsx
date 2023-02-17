@@ -10,6 +10,7 @@ export const Navheader = () =>{
           <Link to="/contactus"><li>Contact Us</li></Link>
           <Link to="/contclick"><li>UseState</li></Link>
           <Link to="/contsum"><li>RightClick</li></Link>
+          <Link to="/useref"><li>UseRef</li></Link>
         </ul>
   </nav>
   )

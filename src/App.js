@@ -8,6 +8,7 @@ import { FaHome } from 'react-icons/fa';
 import { Imgnav } from './components/ui/ImgNav';
 import { ContClick } from './components/ui/Contclick';
 import { ContSum } from './components/ui/Contsum';
+import { ChangeColor } from './components/ui/Useref';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/contactus' element={<Contactus/>} />
         <Route path='/contclick' element={<ContClick/>}/>
         <Route path='/contsum' element={<ContSum/>}/>
+        <Route path='/useref' element={<ChangeColor/>}/>
       </Routes>
     </div>
   );
