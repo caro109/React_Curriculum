@@ -9,6 +9,8 @@ import { Imgnav } from './components/ui/ImgNav';
 import { ContClick } from './components/ui/Contclick';
 import { ContSum } from './components/ui/Contsum';
 import { ChangeColor } from './components/ui/Useref';
+import { CounterColor } from './components/ui/CounterColor';
+
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <Route path='/contclick' element={<ContClick/>}/>
         <Route path='/contsum' element={<ContSum/>}/>
         <Route path='/useref' element={<ChangeColor/>}/>
+        <Route path='/counter' element={<CounterColor/>}/>
       </Routes>
     </div>
   );

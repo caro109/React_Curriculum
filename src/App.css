@@ -192,8 +192,17 @@ li{
 }
 
 .inputColor{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  width: 5%;
+  height: 5vh;
+  margin-left: 45%;
+  margin-top: 5vh;
+  border-radius: 8px;
  }
+
+ .minor{
+  color: #1135E8;
+ }
+
+.max{
+  color: #52E19F;
+}

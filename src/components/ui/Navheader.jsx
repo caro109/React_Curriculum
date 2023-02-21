@@ -11,6 +11,7 @@ export const Navheader = () =>{
           <Link to="/contclick"><li>UseState</li></Link>
           <Link to="/contsum"><li>RightClick</li></Link>
           <Link to="/useref"><li>UseRef</li></Link>
+          <Link to="/counter"><li>Counter</li></Link>
         </ul>
   </nav>
   )
