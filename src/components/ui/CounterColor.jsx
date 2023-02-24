@@ -1,5 +1,4 @@
-import {useEffect,useState} from 'react'
-// import  './index.css';
+import {useEffect,useState} from 'react';
 
 export const CounterColor = () => {
   const [countercolor, setCountercolor] = useState(0)
@@ -25,11 +24,11 @@ export const CounterColor = () => {
   }
 
 return (
-    <div className="">
+    <div className="ContainerColor">
       <h1 className={style}>{countercolor}</h1>
-      <button onClick={uploadNumber}>upload</button>
-      <button onClick={subtractNumber}>Subtract</button>
-      <button onClick={restart}>Restart</button>
+      <button className='ButtonColorr' onClick={uploadNumber}><span className='SpanColor'>Upload</span></button>
+      <button className='ButtonColorr' onClick={subtractNumber}><span className='SpanColor'>Subtract</span></button>
+      <button className='ButtonColorr' onClick={restart}><span className='SpanColor'>Restart</span></button>
     </div>
   );
 }

@@ -12,6 +12,7 @@ export const Navheader = () =>{
           <Link to="/contsum"><li>RightClick</li></Link>
           <Link to="/useref"><li>UseRef</li></Link>
           <Link to="/counter"><li>Counter</li></Link>
+          <Link to="/hooks"><li>Tweets</li></Link>
         </ul>
   </nav>
   )
