@@ -249,6 +249,10 @@ hr{
   margin-bottom: 0.5rem;
 }
 
+.buttonContainer{
+  display: inline-block;
+}
+
 .buttonTweet {
   width: 6.5em;
   height: 2.3em;
@@ -287,3 +291,7 @@ hr{
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
  }
+
+.numberTweet{
+  margin-left: 80%;
+}
