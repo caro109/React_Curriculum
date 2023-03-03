@@ -225,7 +225,7 @@ li{
 
 /*-------------------Tweets-------------*/
 
-.containerTweet{
+/*.containerTweet{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -290,11 +290,11 @@ hr{
   transform: skewX(-45deg) scale(1, 1);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
- }
+ }*/
 
-.numberTweet{
+/*.numberTweet{
   margin-left: 80%;
-}
+}*/
 
 .charactersColor2{
   color: #e41c1c;
@@ -304,6 +304,103 @@ hr{
   color: #52E19F;
 }
 
-.tweetsArchived{
+/*.tweetsArchived{
   width: 10%;
+}*/
+
+.tweetParentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.titleTweet {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #333;
+}
+
+.containerTweet {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.titletweetTwo {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.textareaTweet {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.buttonTweet {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonTweet:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.characters {
+  color: #333;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.tweetsArchived {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.tweetsArchived {
+  color: #333;
+  font-size: 16px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.texttweet2{
+  width: 40%;
 }

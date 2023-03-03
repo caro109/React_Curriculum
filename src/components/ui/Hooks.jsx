@@ -40,11 +40,11 @@ export const Hooks = () => {
 
   return (
   <div className="tweetParentContainer">
-  <h1>Tweet Generator</h1>
+  <h1 className='titleTweet'>Tweet Generator</h1>
   <div className="containerTweet">
-  <h2>Post your tweet</h2>
+  <h2 className='titletweetTwo'>Post your tweet</h2>
   <hr />
-  <textarea cols="30" rows="10" placeholder="write a tweet(max 255 charactes)" value={characters} onChange={handleInputChange}/>
+  <textarea className='textareaTweet' cols="30" rows="10" placeholder="write a tweet(max 255 charactes)" value={characters} onChange={handleInputChange}/>
   <div className="buttonContainer">
   <button className="buttonTweet" onClick={handlePublishTweet}>Publicar</button>
   <button className="buttonTweet" onClick={handleShowArchivedTweets}>Mostrar Archivados</button>
@@ -53,7 +53,7 @@ export const Hooks = () => {
   </div>
   <div className='tweetsArchived'>
     {archivedTweets.map((tweet, index) => (
-    <p key={index}>{tweet.content}</p>
+    <p className='texttweet2' key={index}>{tweet.content}</p>
     ))}
   </div>
   </div>
